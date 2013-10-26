@@ -1,0 +1,357 @@
+﻿body {
+}
+
+.clearer {
+    clear:both;
+}
+
+#main {
+    
+}
+
+#tb-all {
+    max-width:100%;
+    max-height:100%;
+    width:100%;
+    height:100%;
+    border:1px solid red;
+}
+
+#tr-header {
+    /*background-color:red;
+    width:100%; 
+    height:30px;*/ 
+}
+
+#td-header {
+    vertical-align:top;
+    text-align:left;
+}
+
+#tr-email {
+    /*max-width:100%;
+    max-height:100%;
+    width:100%;
+    height:100%;
+    background-color:green;*/
+}
+
+#header {
+    width:100%;
+    height:30px;
+    box-shadow:0px 0px 4px grey;
+    background-color:#CCeeFF;
+    color:#aa5599;
+}
+
+.new-icon {
+    background-position:center;
+    background-repeat:no-repeat;
+    width:24px;
+    height:24px;
+    margin:3px 4px;
+}
+
+#icon {
+    background-image:url('../img/gmail.png');
+    float:left;
+}
+
+#new {
+    background-image:url('../img/new.png');
+    float:right;
+}
+
+#delete {
+    background-image:url('../img/delete.png');
+    float:right;
+}
+
+.delete-icon {
+    background-position:center;
+    background-repeat:no-repeat;
+    margin:0px 4px;
+    width:24px;
+    height:24px;
+    margin:3px 4px;
+}
+
+#user {
+    float:left;
+    max-width:95%;
+    width:auto;
+}
+
+.aaa {
+    width:100%;
+    font-size:9px;
+    height:11px;
+    overflow:hidden;
+}
+
+#content {
+    width:100%;
+    border: 2px solid transparent;
+    margin-left:-2px;
+}
+
+#nav {
+    display:none;
+    background-color:#ced;
+    left:0;
+    top:0;
+    right:20%;
+    bottom:0;
+    font-size:11px;
+    overflow-x:hidden;
+    position:absolute;
+    z-index:999;
+}
+
+.nav-item {
+    width:100%;
+    height:36px;
+    line-height:26px;
+    float:left;
+    margin-top:20px;
+    box-shadow:0px 1px 1px green;
+    border-bottom:1px solid green;
+}
+
+.nav-sub-item {
+    width:100%;
+    height:36px;
+    line-height:26px;
+    float:left;
+    border-bottom:1px solid grey;
+}
+
+.nav-sub-item:hover {
+    background-color:#3DB1FF;
+}
+
+.tb-nav-item {
+    width:100%;
+    height:100%;
+    font-size:11px;
+    margin-left:4px;
+}
+
+#td-main {
+    background-image:url('../img/main1.png');
+}
+
+#td-social {
+    background-image:url('../img/social.png');
+}
+
+#td-ads {
+    background-image:url('../img/ads.png');
+}
+
+.nav-item-icon {
+    background-repeat:no-repeat;
+    background-position:center;
+    width:16px;
+    height:32px;
+    margin-left:2px;
+    margin-right:4px;
+    float:left;
+}
+
+.nav-item-content {
+    height:100%;
+    width:100%;
+    text-align:left;
+    font-size:12px;
+}
+
+.nav-item-quantity {
+    float:left;
+    height:100%;
+    width:40px;
+    background-color:red;
+    text-align:center;
+    vertical-align:middle;
+}
+
+.email-item {
+    float:left;
+    width:100%;
+    height:50px;
+    border-left:none;
+    border-right:none;
+    display:block;
+    border-bottom:1px solid grey;
+}
+
+    .email-item:hover {
+        background-color:#3DB1FF;
+    }
+
+.check {
+    background-image:url('../img/check.png');
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.uncheck {
+    background-image:url('../img/uncheck.png');
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.checkbox {
+    width:20px;
+    height:50px;
+    margin-left:2px;
+    margin-right:4px;
+    float:left;
+}
+
+.email-content {
+    height:100%;
+    width:100%;
+    border-bottom:none;
+    border-top:none;
+    float:right;
+    font-size:9px;
+}
+
+.tb-email-content {
+    width:100%;
+    height:100%;
+    float:left;
+}
+
+.row-content {
+    margin-top:0px;
+    width:100%;
+    float:left;
+    font-size:9.5px;
+}
+
+#list-email {
+    width:100%;
+    height:100%;
+    margin-left:-2px;
+    background-color:#ced;
+}
+
+.sign {
+    width:32px;
+    height:50px;
+    float:left;
+    background-repeat:no-repeat;
+    background-position:center;
+
+}
+
+.signed {
+    background-image:url('../img/sign.png');
+}
+
+.unsigned {
+    background-image:url('../img/unsign.png');
+}
+
+.sender {
+    float:left;
+}
+
+.datetime {
+    float:right;
+}
+
+.none {
+    display:none;
+}
+
+.block {
+    display:block;
+}
+
+#nd-email {
+    width:100%;
+    height:100%;
+    display:none;
+}
+
+.sender-content {
+    width:100%;
+    height:40px;
+    background-color:white;
+    box-shadow:0px 0px 4px red;
+    border-right:none;
+    position:fixed;
+    top:34px;
+}
+
+#sender-img {
+    height:100%;
+    width:40px;
+    background-image:url('../img/user.png');
+    background-repeat:no-repeat;
+    background-position:center;
+    float:left;
+}
+
+#sender-account {
+    height:100%;
+    float:left;
+}
+
+.tb-sender-account {
+    font-size:14px;
+    height:100%;
+}
+
+#delete-email {
+    background-image:url('../img/delete.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    float:right;
+    height:100%;
+    width:40px;
+}
+
+.unsigned-email {
+    background-image:url('../img/unsign24.png');
+}
+
+.signed-email {
+    background-image:url('../img/sign24.png');
+}
+
+#sign-email {
+    background-position:center;
+    background-repeat:no-repeat;
+    float:right;
+    height:100%;
+    width:40px;
+}
+
+#reply-email {
+    background-image:url('../img/reply.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    float:right;
+    height:100%;
+    width:40px;
+}
+
+.nd {
+    margin-top:1px;
+    flex-wrap:wrap;
+    float:left;
+    width:100%;
+    height:100%;
+    background-color:lightgray;
+    padding-top:4px;
+    border:1px solid lightgrey;
+}
+
+.red {
+    color:red !important;
+    background-color:red !important;
+}

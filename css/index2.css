@@ -1,0 +1,326 @@
+﻿body {
+}
+
+#main {
+    background-color:#11e0e0;
+    position:fixed;
+    top:0px;
+}
+
+#header {
+    width:100%;
+    height:36px;
+    background-color:#deeff2;
+    float:left;
+    position:fixed;
+    top:0px;
+    left:0px;
+}
+
+#content {
+    width:100%;
+    max-height:100%;
+    height:auto;
+    float:left;
+    color:white;
+    position:fixed;
+    background-color:#cff;
+    top:36px;
+    left:0px;
+    overflow-y:hidden;
+}
+
+.icon {
+    background-position:center;
+    background-repeat:no-repeat;
+    width:24px;
+    height:24px;
+    margin-top:6px;
+    margin-right:2px;
+}
+
+#gmail {
+    background-image:url('../img/gmail.png');
+    float:left;
+    margin-left:2px;
+}
+
+#new {
+    background-image:url('../img/new.png');
+    float:right;
+}
+
+#delete {
+    background-image:url('../img/delete.png');
+    float:right;
+}
+
+#user {
+    float:left;
+    font-size:12px;
+}
+
+#nav {
+    background-color:rgba(0, 0, 0, 1);
+    top:0;
+    left:0;
+    bottom:0;
+    right:500px;
+    z-index:999;
+    transition:all ease .2s;
+    -ms-transition:all ease .2s;
+    font-size:10px;
+    box-shadow:1px 0px 4px white;
+    position:absolute;
+    margin-right:20% !important;
+}
+
+#email 
+{
+    background-color:rgba(55, 22, 22, 1);
+    height:100%;
+    transition:all ease .4s;
+    -ms-transition:all ease .4s;
+    z-index:1;
+}
+
+#detail{
+    transition:all ease .4s;
+    -ms-transition:all ease .4s;
+    display:none;
+}
+
+.show-nav {
+    width:80%;
+}
+
+.show{
+    width:100%;
+    transition:all ease .2s;
+    -ms-transition:all ease .2s;
+}
+
+.hide{
+    width:0%;
+    transition:all ease .2s;
+    -ms-transition:all ease .2s;
+}
+
+.opa0 {
+    fill-opacity:0;
+    opacity:0;
+}
+
+.opa01 {
+    fill-opacity:.1;
+    opacity:.1;
+}
+
+.opa1 {
+    fill-opacity:1;
+    opacity:1;
+}
+
+.nav-item {
+    width:100%;
+    height:30px;
+    float:left;
+    box-shadow:0px 1px 1px white;
+    border-bottom:1px solid white;
+    line-height:30px;
+    display:none;
+    color:white;
+    transition:all ease .4s;
+    -ms-transition:all ease .4s;
+    font-size:12px;
+}
+
+.nav-sub-item {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    border-bottom: 1px solid white;
+    display:none;
+    color:white;
+    font-size:11px;
+}
+
+    .nav-sub-item:hover {
+        background-color:#0026ff;
+        font-weight:bold;
+    }
+
+.sub-icon {
+    background-repeat:no-repeat;
+    background-position:left center;
+    background-position-x:6px;
+}
+
+#chinh {
+    background-image:url('../img/main1.png');
+    
+}
+
+#xahoi {
+    background-image:url('../img/social.png');
+}
+
+#quangcao {
+    background-image:url('../img/ads.png');
+}
+
+.nav-sub-item-quantity {
+    float:right;
+    width:30px;
+    height:20px;
+    margin-top:5px;
+    margin-right:4px;
+    line-height:20px;
+    text-align:center;
+    color:white;
+    font-weight:bold;
+}
+
+.email-item {
+    width:100%;
+    height:60px;
+    color:white;
+    transition:all ease .4s;
+    -ms-transition:all ease .4s;
+    font-size:12px;
+    background-image:url('../img/bg.png');
+    background-position:center;
+    background-repeat:repeat-x;
+}
+
+    .email-item:hover {
+        background-image:none;
+        background-color:#0026ff;
+        transition:all ease .4s;
+        -ms-transition:all ease .4s;
+        color:white;
+        font-weight:bold;
+    }
+
+.checkbox {
+    width:24px;
+    height:24px;
+    background-repeat:no-repeat;
+    background-position:center;
+    margin-top:6px;
+    margin-left:4px;
+}
+
+.email-item-check {
+    
+    background-image:url('../img/check.png');
+    
+}
+
+.email-item-uncheck {
+    background-image:url('../img/uncheck.png');
+}
+
+.signbox {
+    width:24px;
+    height:24px;
+    background-repeat:no-repeat;
+    background-position:center;
+    margin-top:6px;
+    margin-right:4px;
+}
+
+.email-item-sign {
+    
+    background-image:url('../img/sign24.png');
+}
+
+.email-item-unsign {
+    background-image:url('../img/unsign24.png');
+}
+
+.email-item-content {
+    font-size:13px;
+    width:100%;
+    height:100%;
+}
+
+.tb-email-item-content {
+    
+}
+
+.sender-name {
+    float:left;
+}
+
+.send-date {
+    float:right;
+}
+
+.none {
+    display:none;
+}
+
+.block {
+    display:block;
+}
+
+.sender-email {
+    text-align:right;
+    background-color:black;
+    height:30px;
+    line-height:30px;
+}
+
+.button-email {
+    text-align:right;
+    background-color:black;
+    height:30px;
+    position:absolute;
+    width:100%;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+.nd {
+    background-color:ghostwhite;
+	position:absolute;
+	top:30px;
+	left:0;
+	right:0;
+	bottom:30px;
+	overflow:auto;
+    color:black;
+}
+
+.nd-email {
+    height:100%;
+    width:100%;
+}
+
+#reply-button {
+    background-image:url('../img/reply.png');
+    left:4px;
+}
+
+#delete-button {
+    background-image:url('../img/delete.png');
+    left:32px;
+}
+
+#sign-button {
+    background-image:url('../img/sign24.png');
+    left:60px;
+}
+
+.bottom-icon {
+    background-position:center;
+    background-repeat:no-repeat;
+    position:relative;
+    top:3px;
+    width:24px;
+    height:24px;
+    float:left;
+}
